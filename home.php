@@ -14,7 +14,8 @@ include('inc/head.php');
 			<div class="wrapper">
 				<div class="boxVideo">
 					<!-- IMG Jornada -->
-					<img src="<?=$url?>imagens/PARA1111.png" id="imgjornada" class="imgjornada fadeIn">
+					<img src="<?=$url?>imagens/jornada/geral.png" id="imgjornada" class="imgjornada fadeIn">
+					<a id="linkPreparacao" class="fadeIn"></a>
 					<!--GIF's Prorrogação -->
 					<img src="<?=$url?>imagens/prorrogacao/prorrogacao.gif" id="gifgpror1" class="gifgpror1 fadeIn">
 					<!--GIF's Grande Final -->
@@ -47,9 +48,9 @@ include('inc/head.php');
 					<img src="<?=$url?>imagens/preparacao/reserva2.gif" id="gifprep3" class="gifprep3 fadeIn">
 					<img src="<?=$url?>imagens/preparacao/narrador2.gif" id="gifprep4" class="gifprep4 fadeIn">
 					<!-- video principal -->
-					<video id="video0" class="video-full" playsinline autoplay controlsList="nodownload">
+					<video id="video0" class="video-full" playsinline controls autoplay controlsList="nodownload">
                         <!-- <source src="https://vsh.r7.com/618af3dbc012adcc4200093c/Home_ApTikTok_Main_TESTE_1080p.mp4" type="video/mp4"> -->
-						<source src="https://vsh.r7.com/618d94cc19d224ced60000cf/Home_ApTikTok_Main_TESTE4_1080p.mp4" type="video/mp4">
+						<source src="https://vsh.r7.com/618eb2a7cd77c0f2dd000aeb/Home_ApTikTok_Main_TESTE6_720p.mp4" type="video/mp4">
                     </video>
 					<!-- video menor -->
 					<!-- <video id="video1" class="video-full2" playsinline controls controlsList="nodownload" style="display: none;">
@@ -128,11 +129,11 @@ include('inc/head.php');
 </main>
 <? include('inc/timers.php');?>
 
-<!-- MUSICA -->
+<!-- MÚSICA -->
 <script>
 var myVideo0 = document.getElementById("video0");
 var backvid = document.getElementById("video0");
-// MUSICA 1 - Treino de futebol - Preparação
+// MÚSICA 1 - Treino de futebol - Preparação
 var myMusic1 = document.getElementById("music1");
 
 function playVideoAudio1(){
@@ -198,12 +199,12 @@ function preparacao(){
 	myMusic2.pause(); 
 }
 function esquematact(){
-    myVideo0.currentTime=29;
+    myVideo0.currentTime=59;
 	myVideo0.play();
 	myMusic2.play(); 
 }
 function oportcobran(){
-    myVideo0.currentTime=112;
+    myVideo0.currentTime=142;
 	myVideo0.play();
 	myMusic2.pause(); 
 	myMusic3.play(); 
@@ -231,7 +232,7 @@ function prorrogacao(){
 }
 // BTN VOLTAR + HIDE GIF's
 function defaultvid(){	
-	backvid.currentTime=8;
+	backvid.currentTime=41;
 	myVideo0.play();
 	myMusic1.pause();
 	myMusic2.pause();

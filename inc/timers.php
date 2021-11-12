@@ -61,12 +61,15 @@ $(document).ready(function() {
 /* IMG JORNADA */
 $(document).ready(function() {
     $("#imgjornada").hide();
+    $("#linkPreparacao").hide();
     document.getElementById('video0').addEventListener("timeupdate", function() {
         if(this.currentTime > 117) {
             $("#imgjornada").show();
+            $("#linkPreparacao").show();
         }
         if(this.currentTime > 118) {
             $("#imgjornada").hide();
+            $("#linkPreparacao").hide();
         }
     });
 }); 
@@ -207,12 +210,12 @@ $(document).ready(function() {
 //$("#p1").hide();
 $("#p2").hide();
 document.getElementById('video0').addEventListener("timeupdate", function() {
-if(this.currentTime >= 13 + 0.9 && this.currentTime < 14 + 0.1) {
+if(this.currentTime >= 41 + 0.9 && this.currentTime < 42 + 0.1) {
 $("#p1").show()
 // document.getElementById("video1").visiblity="visible";
 this.pause()
 } 
-if(this.currentTime > 18) {
+if(this.currentTime > 44) {
 $("#p1").hide()
 }
 });
@@ -222,10 +225,10 @@ $(document).ready(function() {
 //$("#b1").hide();
 $("#b2").hide();
 document.getElementById('video0').addEventListener("timeupdate", function() {
-if(this.currentTime >= 13 + 0.9 && this.currentTime < 14 + 0.1) {
+if(this.currentTime >= 41 + 0.9 && this.currentTime < 42 + 0.1) {
 $("#b1").show()
 }
-if(this.currentTime > 18) {
+if(this.currentTime > 44) {
 $("#b1").hide()
 $("#p2").show()
 $("#b2").show()
@@ -237,11 +240,11 @@ $("#b2").show()
 $(document).ready(function() {
 $("#p2").hide();
 document.getElementById('video0').addEventListener("timeupdate", function() {
-if(this.currentTime >= 22 + 0.9 && this.currentTime < 23 + 0.1) {
+if(this.currentTime >= 51 + 0.9 && this.currentTime < 52 + 0.1) {
 $("#p2").show()
 this.pause()
 } 
-if(this.currentTime > 25) {
+if(this.currentTime > 54) {
 $("#p2").hide()
 }
 });
@@ -250,10 +253,10 @@ $("#p2").hide()
 $(document).ready(function() {
 $("#b2").hide();
 document.getElementById('video0').addEventListener("timeupdate", function() {
-if(this.currentTime >= 22 + 0.9 && this.currentTime < 23 + 0.1) {
+if(this.currentTime >= 51 + 0.9 && this.currentTime < 52 + 0.1) {
 $("#b2").show()
 }
-if(this.currentTime > 25) {
+if(this.currentTime > 54) {
 $("#b2").hide()
 $("#p3").show()
 $("#b3").show()
@@ -261,16 +264,15 @@ $("#b3").show()
 });
 });
 
-
 /* Parte 3 - Vai até Esquema tatico */
 $(document).ready(function() {
 $("#p3").hide();
 document.getElementById('video0').addEventListener("timeupdate", function() {
-if(this.currentTime >= 32 + 0.9 && this.currentTime < 33 + 0.1) {
+if(this.currentTime >= 59 + 0.9 && this.currentTime < 60 + 0.1) {
 $("#p3").show()
 this.pause()
 } 
-if(this.currentTime > 34) {
+if(this.currentTime > 62) {
 $("#p3").hide()
 }
 });
@@ -279,10 +281,10 @@ $("#p3").hide()
 $(document).ready(function() {
 $("#b3").hide();
 document.getElementById('video0').addEventListener("timeupdate", function() {
-if(this.currentTime >= 32 + 0.9 && this.currentTime < 33 + 0.1) {
+if(this.currentTime >= 59 + 0.9 && this.currentTime < 60 + 0.1) {
 $("#b3").show()
 }
-if(this.currentTime > 34) {
+if(this.currentTime > 62) {
 $("#b3").hide()
 $("#p4").show()
 $("#b4").show()
@@ -294,11 +296,11 @@ $("#b4").show()
 $(document).ready(function() {
 $("#p4").hide();
 document.getElementById('video0').addEventListener("timeupdate", function() {
-if(this.currentTime >= 36 + 0.9 && this.currentTime < 37 + 0.1) {
+if(this.currentTime >= 64 + 0.9 && this.currentTime < 65 + 0.1) {
 $("#p4").show()
 this.pause()
 } 
-if(this.currentTime > 38) {
+if(this.currentTime > 67) {
 $("#p4").hide()
 }
 });
@@ -307,10 +309,10 @@ $("#p4").hide()
 $(document).ready(function() {
 $("#b4").hide();
 document.getElementById('video0').addEventListener("timeupdate", function() {
-if(this.currentTime >= 36 + 0.9 && this.currentTime < 37 + 0.1) {
+if(this.currentTime >= 64 + 0.9 && this.currentTime < 65 + 0.1) {
 $("#b4").show()
 }
-if(this.currentTime > 38) {
+if(this.currentTime > 67) {
 $("#b4").hide()
 $("#p5").show()
 $("#b5").show()
@@ -322,11 +324,11 @@ $("#b5").show()
 $(document).ready(function() {
 $("#p5").hide();
 document.getElementById('video0').addEventListener("timeupdate", function() {
-if(this.currentTime >= 40 + 0.9 && this.currentTime < 41 + 0.1) {
+if(this.currentTime >= 68 + 0.9 && this.currentTime < 69 + 0.1) {
 $("#p5").show()
 this.pause()
 } 
-if(this.currentTime > 45) {
+if(this.currentTime > 71) {
 $("#p5").hide()
 }
 });
@@ -335,10 +337,10 @@ $("#p5").hide()
 $(document).ready(function() {
 $("#b5").hide();
 document.getElementById('video0').addEventListener("timeupdate", function() {
-if(this.currentTime >= 40 + 0.9 && this.currentTime < 41 + 0.1) {
+if(this.currentTime >= 68 + 0.9 && this.currentTime < 69 + 0.1) {
 $("#b5").show()
 }
-if(this.currentTime > 45) {
+if(this.currentTime > 71) {
 $("#b5").hide()
 $("#p6").show()
 $("#b6").show()
@@ -350,11 +352,11 @@ $("#b6").show()
 $(document).ready(function() {
 $("#p6").hide();
 document.getElementById('video0').addEventListener("timeupdate", function() {
-if(this.currentTime >= 48 + 0.9 && this.currentTime < 49 + 0.1) {
+if(this.currentTime >= 76 + 0.9 && this.currentTime < 77 + 0.1) {
 $("#p6").show()
 this.pause()
 } 
-if(this.currentTime > 53) {
+if(this.currentTime > 79) {
 $("#p6").hide()
 }
 });
@@ -363,10 +365,10 @@ $("#p6").hide()
 $(document).ready(function() {
 $("#b6").hide();
 document.getElementById('video0').addEventListener("timeupdate", function() {
-if(this.currentTime >= 48 + 0.9 && this.currentTime < 49 + 0.1) {
+if(this.currentTime >= 76 + 0.9 && this.currentTime < 77 + 0.1) {
 $("#b6").show()
 }
-if(this.currentTime > 53) {
+if(this.currentTime > 79) {
 $("#b6").hide()
 $("#p7").show()
 $("#b7").show()
@@ -378,11 +380,11 @@ $("#b7").show()
 $(document).ready(function() {
 $("#p7").hide();
 document.getElementById('video0').addEventListener("timeupdate", function() {
-if(this.currentTime >= 55 + 0.9 && this.currentTime < 56 + 0.1) {
+if(this.currentTime >= 82 + 0.9 && this.currentTime < 83 + 0.1) {
 $("#p7").show()
 this.pause()
 } 
-if(this.currentTime > 60) {
+if(this.currentTime > 84) {
 $("#p7").hide()
 }
 });
@@ -391,10 +393,10 @@ $("#p7").hide()
 $(document).ready(function() {
 $("#b7").hide();
 document.getElementById('video0').addEventListener("timeupdate", function() {
-if(this.currentTime >= 55 + 0.9 && this.currentTime < 56 + 0.1) {
+if(this.currentTime >= 82 + 0.9 && this.currentTime < 83 + 0.1) {
 $("#b7").show()
 }
-if(this.currentTime > 60) {
+if(this.currentTime > 84) {
 $("#b7").hide()
 $("#p8").show()
 $("#b8").show()
@@ -406,11 +408,11 @@ $("#b8").show()
 $(document).ready(function() {
 $("#p8").hide();
 document.getElementById('video0').addEventListener("timeupdate", function() {
-if(this.currentTime >= 62 + 0.9 && this.currentTime < 63 + 0.1) {
+if(this.currentTime >= 90 + 0.9 && this.currentTime < 91 + 0.1) {
 $("#p8").show()
 this.pause()
 } 
-if(this.currentTime > 66) {
+if(this.currentTime > 93) {
 $("#p8").hide()
 }
 });
@@ -419,10 +421,10 @@ $("#p8").hide()
 $(document).ready(function() {
 $("#b8").hide();
 document.getElementById('video0').addEventListener("timeupdate", function() {
-if(this.currentTime >= 62 + 0.9 && this.currentTime < 63 + 0.1) {
+if(this.currentTime >= 90 + 0.9 && this.currentTime < 91 + 0.1) {
 $("#b8").show()
 }
-if(this.currentTime > 66) {
+if(this.currentTime > 93) {
 $("#b8").hide()
 $("#p9").show()
 $("#b9").show()
@@ -434,11 +436,11 @@ $("#b9").show()
 $(document).ready(function() {
 $("#p9").hide();
 document.getElementById('video0').addEventListener("timeupdate", function() {
-if(this.currentTime >= 67 + 0.9 && this.currentTime < 68 + 0.1) {
+if(this.currentTime >= 95 + 0.9 && this.currentTime < 96 + 0.1) {
 $("#p9").show()
 this.pause()
 } 
-if(this.currentTime > 72) {
+if(this.currentTime > 98) {
 $("#p9").hide()
 }
 });
@@ -447,10 +449,10 @@ $("#p9").hide()
 $(document).ready(function() {
 $("#b9").hide();
 document.getElementById('video0').addEventListener("timeupdate", function() {
-if(this.currentTime >= 67 + 0.9 && this.currentTime < 68 + 0.1) {
+if(this.currentTime >= 95 + 0.9 && this.currentTime < 96 + 0.1) {
 $("#b9").show()
 }
-if(this.currentTime > 72) {
+if(this.currentTime > 98) {
 $("#b9").hide()
 $("#p10").show()
 $("#b10").show()
@@ -462,11 +464,11 @@ $("#b10").show()
 $(document).ready(function() {
 $("#p10").hide();
 document.getElementById('video0').addEventListener("timeupdate", function() {
-if(this.currentTime >= 74 + 0.9 && this.currentTime < 75 + 0.1) {
+if(this.currentTime >= 102 + 0.9 && this.currentTime < 103 + 0.1) {
 $("#p10").show()
 this.pause()
 } 
-if(this.currentTime > 78) {
+if(this.currentTime > 105) {
 $("#p10").hide()
 }
 });
@@ -475,10 +477,10 @@ $("#p10").hide()
 $(document).ready(function() {
 $("#b10").hide();
 document.getElementById('video0').addEventListener("timeupdate", function() {
-if(this.currentTime >= 74 + 0.9 && this.currentTime < 75 + 0.1) {
+if(this.currentTime >= 102 + 0.9 && this.currentTime < 103 + 0.1) {
 $("#b10").show()
 }
-if(this.currentTime > 78) {
+if(this.currentTime > 105) {
 $("#b10").hide()
 $("#p11").show()
 $("#b11").show()
@@ -490,11 +492,11 @@ $("#b11").show()
 $(document).ready(function() {
 $("#p11").hide();
 document.getElementById('video0').addEventListener("timeupdate", function() {
-if(this.currentTime >= 80 + 0.9 && this.currentTime < 81 + 0.1) {
+if(this.currentTime >= 107 + 0.9 && this.currentTime < 108 + 0.1) {
 $("#p11").show()
 this.pause()
 } 
-if(this.currentTime > 85) {
+if(this.currentTime > 110) {
 $("#p11").hide()
 }
 });
@@ -503,10 +505,10 @@ $("#p11").hide()
 $(document).ready(function() {
 $("#b11").hide();
 document.getElementById('video0').addEventListener("timeupdate", function() {
-if(this.currentTime >= 80 + 0.9 && this.currentTime < 81 + 0.1) {
+if(this.currentTime >= 107 + 0.9 && this.currentTime < 108 + 0.1) {
 $("#b11").show()
 }
-if(this.currentTime > 85) {
+if(this.currentTime > 110) {
 $("#b11").hide()
 $("#p12").show()
 $("#b12").show()
@@ -518,11 +520,11 @@ $("#b12").show()
 $(document).ready(function() {
 $("#p12").hide();
 document.getElementById('video0').addEventListener("timeupdate", function() {
-if(this.currentTime >= 88 + 0.9 && this.currentTime < 89 + 0.1) {
+if(this.currentTime >= 116 + 0.9 && this.currentTime < 117 + 0.1) {
 $("#p12").show()
 this.pause()
 } 
-if(this.currentTime > 95) {
+if(this.currentTime > 119) {
 $("#p12").hide()
 }
 });
@@ -531,10 +533,10 @@ $("#p12").hide()
 $(document).ready(function() {
 $("#b12").hide();
 document.getElementById('video0').addEventListener("timeupdate", function() {
-if(this.currentTime >= 88 + 0.9 && this.currentTime < 89 + 0.1) {
+if(this.currentTime >= 116 + 0.9 && this.currentTime < 117 + 0.1) {
 $("#b12").show()
 }
-if(this.currentTime > 95) {
+if(this.currentTime > 119) {
 $("#b12").hide()
 $("#p13").show()
 $("#b13").show()
@@ -546,11 +548,11 @@ $("#b13").show()
 $(document).ready(function() {
 $("#p13").hide();
 document.getElementById('video0').addEventListener("timeupdate", function() {
-if(this.currentTime >= 97 + 0.9 && this.currentTime < 98 + 0.1) {
+if(this.currentTime >= 125 + 0.9 && this.currentTime < 126 + 0.1) {
 $("#p13").show()
 this.pause()
 } 
-if(this.currentTime > 100) {
+if(this.currentTime > 128) {
 $("#p13").hide()
 }
 });
@@ -559,10 +561,10 @@ $("#p13").hide()
 $(document).ready(function() {
 $("#b13").hide();
 document.getElementById('video0').addEventListener("timeupdate", function() {
-if(this.currentTime >= 97 + 0.9 && this.currentTime < 98 + 0.1) {
+if(this.currentTime >= 125 + 0.9 && this.currentTime < 126 + 0.1) {
 $("#b13").show()
 }
-if(this.currentTime > 100) {
+if(this.currentTime > 128) {
 $("#b13").hide()
 $("#p14").show()
 $("#b14").show()
@@ -574,11 +576,11 @@ $("#b14").show()
 $(document).ready(function() {
 $("#p14").hide();
 document.getElementById('video0').addEventListener("timeupdate", function() {
-if(this.currentTime >= 103 + 0.9 && this.currentTime < 104 + 0.1) {
+if(this.currentTime >= 130 + 0.9 && this.currentTime < 131 + 0.1) {
 $("#p14").show()
 this.pause()
 } 
-if(this.currentTime > 106) {
+if(this.currentTime > 133) {
 $("#p14").hide()
 }
 });
@@ -587,10 +589,10 @@ $("#p14").hide()
 $(document).ready(function() {
 $("#b14").hide();
 document.getElementById('video0').addEventListener("timeupdate", function() {
-if(this.currentTime >= 102 + 0.9 && this.currentTime < 103 + 0.1) {
+if(this.currentTime >= 130 + 0.9 && this.currentTime < 131 + 0.1) {
 $("#b14").show()
 }
-if(this.currentTime > 106) {
+if(this.currentTime > 133) {
 $("#b14").hide()
 $("#p15").show()
 $("#b15").show()
@@ -602,11 +604,11 @@ $("#b15").show()
 $(document).ready(function() {
 $("#p15").hide();
 document.getElementById('video0').addEventListener("timeupdate", function() {
-if(this.currentTime >= 107 + 0.9 && this.currentTime < 108 + 0.1) {
+if(this.currentTime >= 135 + 0.9 && this.currentTime < 136 + 0.1) {
 $("#p15").show()
 this.pause()
 } 
-if(this.currentTime > 115) {
+if(this.currentTime > 137) {
 $("#p15").hide()
 }
 });
@@ -615,10 +617,10 @@ $("#p15").hide()
 $(document).ready(function() {
 $("#b15").hide();
 document.getElementById('video0').addEventListener("timeupdate", function() {
-if(this.currentTime >= 107 + 0.9 && this.currentTime < 108 + 0.1) {
+if(this.currentTime >= 135 + 0.9 && this.currentTime < 136 + 0.1) {
 $("#b15").show()
 }
-if(this.currentTime > 110) {
+if(this.currentTime > 137) {
 $("#b15").hide()
 $("#p16").show()
 $("#b16").show()
@@ -630,11 +632,11 @@ $("#b16").show()
 $(document).ready(function() {
 $("#p16").hide();
 document.getElementById('video0').addEventListener("timeupdate", function() {
-if(this.currentTime >= 114 + 0.9 && this.currentTime < 115 + 0.1) {
+if(this.currentTime >= 142 + 0.9 && this.currentTime < 143 + 0.1) {
 $("#p16").show()
 this.pause()
 } 
-if(this.currentTime > 116) {
+if(this.currentTime > 145) {
 $("#p16").hide()
 }
 });
@@ -643,10 +645,10 @@ $("#p16").hide()
 $(document).ready(function() {
 $("#b16").hide();
 document.getElementById('video0').addEventListener("timeupdate", function() {
-if(this.currentTime >= 114 + 0.9 && this.currentTime < 115 + 0.1) {
+if(this.currentTime >= 142 + 0.9 && this.currentTime < 143 + 0.1) {
 $("#b16").show()
 }
-if(this.currentTime > 116) {
+if(this.currentTime > 144) {
 $("#b16").hide()
 $("#p17").show()
 $("#b17").show()
@@ -658,11 +660,11 @@ $("#b17").show()
 $(document).ready(function() {
 $("#p17").hide();
 document.getElementById('video0').addEventListener("timeupdate", function() {
-if(this.currentTime >= 117 + 0.9 && this.currentTime < 118 + 0.1) {
+if(this.currentTime >= 152 + 0.9 && this.currentTime < 153 + 0.1) {
 $("#p17").show()
 this.pause()
 } 
-if(this.currentTime > 126) {
+if(this.currentTime > 154) {
 $("#p17").hide()
 }
 });
@@ -671,16 +673,14 @@ $("#p17").hide()
 $(document).ready(function() {
 $("#b17").hide();
 document.getElementById('video0').addEventListener("timeupdate", function() {
-if(this.currentTime >= 117 + 0.9 && this.currentTime < 118 + 0.1) {
+if(this.currentTime >= 152 + 0.9 && this.currentTime < 153 + 0.1) {
 $("#b17").show()
 }
-if(this.currentTime > 126) {
+if(this.currentTime > 154) {
 $("#b17").hide()
 $("#p18").show()
 $("#b18").show()
 }
 });
 });
-
-
 </script>

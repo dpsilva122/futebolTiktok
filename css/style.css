@@ -623,7 +623,15 @@
     color: #444;
     }
     /*==================================================meu style==================================================*/
-   
+   #linkPreparacao {
+    width: 220px;
+    height: 48px;
+    background-color: #fff;
+    position: absolute;
+    bottom: 210px;
+    left: 102px;
+    z-index: 2;
+   }
     .imgBus{
         width: 10%;            
     }
@@ -652,9 +660,9 @@
             } 
     /* GIFS PRORROGACAO */
     .imgjornada {
-        top: 35.5%;
-        width: 91%;
-        right: 5%;
+        bottom: 0%;
+        width: 100%;
+        right: 0%;
         z-index: 1;
         position: absolute;
         display: none;
@@ -898,9 +906,12 @@
         display: none;
     }           
     .video-full {
-        width: 100%;
+        /* width: 100%; */
         height: 100vh;
-        position: absolute;
+        /* position: absolute; */
+        display: block;
+        margin: 0 auto;
+        max-width: 100%;
     }
     .video-full2 {
         width: 50%;
@@ -1234,6 +1245,7 @@
         font-size: 4vw;
         right: 3%;
         color: #fff;
+        z-index: 100;
     }
     .esquemaDefault {
         position: absolute;
@@ -1248,7 +1260,7 @@
         width: 100px;
         height: 100px;
         position: absolute;
-        background-color: transparent;
+        /* background-color: black; */
         top: 44%;
         left: 26%;
     }
@@ -1256,7 +1268,7 @@
         width: 100px;
         height: 100px;
         position: absolute;
-        background-color: transparent;
+        /* background-color: transparent; */
         top: 44%;
         left: 34%;
     }
@@ -1264,7 +1276,7 @@
         width: 100px;
         height: 100px;
         position: absolute;
-        background-color: transparent;
+        /* background-color: transparent; */
         top: 43%;
         left: 42%;
     }
@@ -1272,7 +1284,7 @@
         width: 100px;
         height: 100px;
         position: absolute;
-        background-color: transparent;
+        /* background-color: transparent; */
         top: 43%;
         left: 51%;
     }
