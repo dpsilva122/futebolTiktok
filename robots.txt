@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /inc/
+Disallow: /imagens/servicos/thumb/
+
+Sitemap: http://www.XXXXXXX.com.br/sitemap.xml
